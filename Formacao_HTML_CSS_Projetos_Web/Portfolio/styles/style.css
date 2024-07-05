@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacques+Francois+Shadow&display=swap");
+
+:root {
+  --cor-background: #03001c;
+  --cor-background-destaque: #301e67;
+  --cor-texto: #b6eada;
+  --cor-texto-destaque: #5b8fb9;
+
+  --fonte-titulo: "Jacques Francois Shadow", serif;
+  --fonte-principal: "Chakra Petch", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: var(--fonte-principal);
+}
+
+body {
+  background-color: var(--cor-background);
+  color: var(--cor-texto);
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  color: var(--cor-texto-destaque);
+}
+
+header {
+  background-color: var(--cor-background-destaque);
+  color: var(--cor-texto);
+
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+  width: auto;
+}
+
+footer {
+  background-color: var(--cor-background-destaque);
+  color: var(--cor-texto);
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+
+  width: auto;
+  p {
+    margin-inline: 3vw;
+
+    font-size: 1rem;
+  }
+}
+
+a {
+  color: var(--cor-texto);
+
+  border-radius: 5px;
+  border: 2px solid var(--cor-texto-destaque);
+
+  width: 50%;
+  padding: 8px;
+
+  text-decoration: none;
+  font-size: 1.38rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+
+  transition: background 0.8s;
+}
+
+a:hover {
+  background-color: var(--cor-background-destaque);
+}
+
+h1 {
+  font-family: var(--fonte-titulo);
+  font-weight: 400;
+  font-size: 2.5rem;
+
+  padding-left: 5px;
+}
+
+h2 {
+  font-size: 2.19rem;
+}
+
+p {
+  font-size: 1.56rem;
+}
+
+ol {
+  font-size: 1.56rem;
+  font-weight: bold;
+  color: var(--cor-texto-destaque);
+}
+
+li {
+  font-size: 1.25rem;
+  font-weight: normal;
+
+  color: var(--cor-texto);
+
+  list-style: none;
+}
+
+li:first-child {
+  margin-top: 15px;
+}
+
+.cabecalho {
+  display: flex;
+
+  margin-top: 10px;
+
+  a {
+    border: none;
+
+    font-size: 1.25rem;
+
+    width: 7rem;
+    padding: 5px;
+  }
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 2% 0%;
+}
+
+.conteudo__foto_perfil {
+  width: 20%;
+  border-radius: 50%;
+
+  margin-bottom: 30px;
+}
+
+.conteudo__texto {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  width: 50%;
+  gap: 50px;
+}
+
+.conteudo__links {
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 16px;
+}
+
+.conteudo__links__subtitulo {
+  font-size: 1.38rem;
+}
+
+.conteudo__links__github {
+  margin-right: 18px;
+  margin-top: -3px;
+}
+
+.conteudo__links__linkedIn {
+  margin-inline: 15px;
+  margin-top: -4px;
+}
+
+.conteudo__texto__resumo {
+  font-size: 1.25rem;
+}
+
+.conteudo__texto__informacoes {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+
+@media (max-width: 832px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  h1 {
+    font-size: 1.2rem;
+    margin-top: 12px;
+  }
+
+  h2,
+  ol {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: small;
+  }
+
+  footer,
+  .conteudo__texto {
+    p {
+      font-size: small;
+    }
+  }
+
+  .cabecalho {
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  .conteudo__texto {
+    width: auto;
+  }
+}
+
+@media (max-width: 574px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 12px;
+    padding-left: 28px;
+  }
+
+  h2,
+  ol {
+    font-size: 1.2rem;
+  }
+
+  li {
+    font-size: x-small;
+  }
+
+  footer,
+  .conteudo__texto {
+    p {
+      font-size: x-small;
+    }
+  }
+
+  .cabecalho {
+    a {
+      font-size: 1rem;
+      width: 5rem;
+    }
+  }
+
+  .conteudo__texto {
+    width: auto;
+  }
+}
