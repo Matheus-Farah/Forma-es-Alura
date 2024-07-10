@@ -19,10 +19,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 16px;
 }
 
 .topicos__item {
-  margin: 2em 0.5em;
+  margin: 1em 0;
 }
 
 .topicos__link {
@@ -35,4 +36,19 @@
 
   font-size: 14px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .topicos__titulo,
+  .topicos__link {
+    font-size: 24px;
+  }
+
+  .topicos__lista {
+    gap: 24px;
+  }
+
+  .topicos__item {
+    margin: 2em 0;
+  }
 }
