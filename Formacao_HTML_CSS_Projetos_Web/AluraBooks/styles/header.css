@@ -28,10 +28,6 @@
   display: block;
 }
 
-.container__botao {
-  display: none;
-}
-
 .lista-menu {
   display: none;
 
@@ -69,6 +65,8 @@
 }
 
 .container__titulo,
+.container__texto,
+.container__botao,
 .opcoes {
   display: none;
 }
@@ -114,5 +112,28 @@
 
   .container__botao:checked ~ .lista-menu {
     width: auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .cabecalho {
+    padding-inline: 2em;
+  }
+
+  .opcoes {
+    margin-inline: 3em auto;
+  }
+
+  .container__link {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    color: var(--preto);
+  }
+
+  .container__texto {
+    display: block;
   }
 }
