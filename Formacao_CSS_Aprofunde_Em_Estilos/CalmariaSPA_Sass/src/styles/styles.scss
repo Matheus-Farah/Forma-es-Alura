@@ -1,0 +1,15 @@
+//Utilização dos arquivos partial
+
+//body
+@use "./abstract/root";
+
+//Componentes
+@use "./components/header";
+@use "./components/novo-espaco";
+@use "./components/servicos";
+@use "./components/desconto";
+@use "./components/contatos";
+@use "./components/_footer.sass";
+
+//Importação das fontes usadas no projeto
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&display=swap");
