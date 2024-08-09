@@ -54,7 +54,7 @@ img:hover {
 }
 
 .menu__titulo {
-  background-image: url("../img/logo-branco-maior.png");
+  background-image: url("../assets/logos/logo-branco-maior.png");
   background-repeat: no-repeat;
   background-position: center;
   padding: 40px 100px;
@@ -84,7 +84,7 @@ img:hover {
 .menu__input {
   color: white;
   background-color: black;
-  background-image: url("../img/icone-busca.png");
+  background-image: url("../assets/icons/icone-busca.png");
   background-repeat: no-repeat;
   background-position: right;
   font-size: 16px;
@@ -97,14 +97,14 @@ img:hover {
 
 .menu__item:nth-child(4)::before {
   padding-right: 8px;
-  content: url("../img/icone-gps.png");
+  content: url("../assets/icons/icone-gps.png");
   cursor: pointer;
   transition: 3.3s;
 }
 
 .menu__item:nth-child(4)::after {
   padding-left: 8px;
-  content: url("../img/icone-seta.png");
+  content: url("../assets/icons/icone-seta.png");
   cursor: pointer;
   transition: 3.3s;
 }
@@ -196,7 +196,7 @@ img:hover {
 
 .categorias__imagem {
   margin-bottom: 1.5rem;
-  background-image: url("../img/destaques-360.png");
+  background-image: url("../assets/img/apresentacao/apresentacao-360.png");
   background-repeat: no-repeat;
   height: 271px;
   background-size: cover;
@@ -355,7 +355,7 @@ img:hover {
 }
 
 .rodape__logo h4 {
-  background-image: url("../img/logo_rodape.png");
+  background-image: url("../assets/logos/logo_rodape.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 60px;
@@ -400,7 +400,7 @@ img:hover {
   }
 
   .categorias__imagem {
-    background-image: url("../img/apresentacao-720.png");
+    background-image: url("../assets/img/apresentacao/apresentacao-720.png");
   }
 
   /* Agenda */
@@ -426,7 +426,7 @@ img:hover {
   }
 
   .menu__titulo {
-    background-image: url("../img/logo-branco-menor.png");
+    background-image: url("../assets/logos/logo-branco-menor.png");
     padding: 43px 55px;
   }
 
@@ -485,5 +485,33 @@ img:hover {
   .rodape {
     padding-left: 7.5rem;
     padding-right: 7.5rem;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  /* Categorias */
+
+  .categorias__titulo {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Eventos */
+
+  .eventos__titulo {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Agenda */
+
+  .agenda__titulo {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* Categorias */
+
+  .categorias {
+    margin-bottom: 1.5rem;
   }
 }
