@@ -21,19 +21,31 @@
   gap: 40px;
 }
 
+.cabecalho__navegacao--lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
 .cabecalho__navegacao--item {
-  color: var(--branco);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
+  list-style: none;
+}
+
+.cabecalho__navegacao--item a {
+  color: var(--branco);
+  text-decoration: none;
 }
 
 .banner__img {
   max-width: 100%;
 }
 
-.banner__descricao {
+.banner__img--descricao {
   max-width: 1200px;
   color: var(--grafite, #222);
   text-align: center;
@@ -109,19 +121,19 @@ img {
 }
 
 .ofertas__cards--japao {
-  background-image: url("./img/tokyo.png");
+  background-image: url("../assets/img/tokyo.png");
 }
 
 .ofertas__cards--san-andreas {
-  background-image: url("./img/san-andreas.png");
+  background-image: url("../assets/img/san-andreas.png");
 }
 
 .ofertas__cards--paraiba {
-  background-image: url("./img/paraiba.png");
+  background-image: url("../assets/img/paraiba.png");
 }
 
 .ofertas__cards--manaus {
-  background-image: url("./img/manaus.png");
+  background-image: url("../assets/img/manaus.png");
 }
 
 .ofertas__card--destino-tipo {
