@@ -57,7 +57,7 @@ header #home .textos-home h1 span {
   color: #4e75ff;
 }
 header #home .textos-home .btn-main {
-  background-color: #85a0ff;
+  background-color: #4163da;
   color: #ffffff;
   width: 280px;
   font-family: "Montserrat", sans-serif;
@@ -70,7 +70,7 @@ header #home .textos-home .btn-main {
   cursor: pointer;
 }
 header #home .textos-home .btn-main:hover {
-  background-color: #4e75ff;
+  background-color: #0c0421;
 }
 header #home .img-home {
   max-width: 474px;
@@ -178,7 +178,7 @@ header #home .img-home img {
   font-size: 1.2rem;
   color: #ffffff;
   width: 276.5px;
-  background-color: #4e75ff;
+  background-color: #4163da;
   border-radius: 0 65px 65px 0;
   border: none;
   cursor: pointer;
@@ -243,15 +243,16 @@ header #home .img-home img {
   font-weight: bold;
 }
 #contatos .contatos-form .inputs .btn {
-  background-color: #85a0ff;
+  background-color: #4163da;
   color: #ffffff;
   margin-top: 2rem;
   font-size: 1rem;
   width: 100%;
   transition: 0.3s;
+  cursor: pointer;
 }
 #contatos .contatos-form .inputs .btn:hover {
-  background-color: #4e75ff;
+  background-color: #0c0421;
 }
 
 footer {

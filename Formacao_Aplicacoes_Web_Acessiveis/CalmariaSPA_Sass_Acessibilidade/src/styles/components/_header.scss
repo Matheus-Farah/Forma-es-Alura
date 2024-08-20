@@ -68,7 +68,7 @@ header {
       }
 
       .btn-main {
-        background-color: variaveis.$roxo-calmante;
+        background-color: variaveis.$roxo-medio;
         color: variaveis.$branco;
 
         width: 280px;
@@ -87,7 +87,7 @@ header {
         cursor: pointer;
 
         &:hover {
-          background-color: variaveis.$roxo-vibrante;
+          background-color: variaveis.$roxo-escuro;
         }
       }
     }

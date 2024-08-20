@@ -87,7 +87,7 @@
       .btn {
         @extend input;
 
-        background-color: variaveis.$roxo-calmante;
+        background-color: variaveis.$roxo-medio;
         color: variaveis.$branco;
 
         margin-top: 2rem;
@@ -97,8 +97,10 @@
         width: 100%;
 
         transition: 0.3s;
+
+        cursor: pointer;
         &:hover {
-          background-color: variaveis.$roxo-vibrante;
+          background-color: variaveis.$roxo-escuro;
         }
       }
     }
